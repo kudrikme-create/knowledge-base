@@ -9,18 +9,12 @@ theme:
   name: material
   language: ru
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Тёмный режим
     - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Светлый режим
+      primary: black
+      accent: blue
+  font:
+    text: false
+    code: false
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -31,6 +25,9 @@ theme:
     - search.highlight
     - search.suggest
     - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:
