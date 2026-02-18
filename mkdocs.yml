@@ -1,8 +1,8 @@
 site_name: База знаний команды
 site_description: Официальная база знаний нашей команды
-site_url: https://kudrikme-create.github.io/team-knowledge-base/
-repo_url: https://github.com/kudrikme-create/team-knowledge-base
-repo_name: team-knowledge-base
+site_url: https://kudrikme-create.github.io/knowledge-base/
+repo_url: https://github.com/kudrikme-create/knowledge-base
+repo_name: knowledge-base
 edit_uri: edit/main/docs/
 
 theme:
