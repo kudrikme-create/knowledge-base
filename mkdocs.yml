@@ -1,0 +1,61 @@
+site_name: База знаний команды
+site_description: Официальная база знаний нашей команды
+site_url: https://kudrikme-create.github.io/team-knowledge-base/
+repo_url: https://github.com/kudrikme-create/team-knowledge-base
+repo_name: team-knowledge-base
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмный режим
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлый режим
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+
+plugins:
+  - search:
+      lang: ru
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Начало работы:
+      - getting-started/index.md
+      - Онбординг нового сотрудника: getting-started/onboarding.md
+  - Политики:
+      - policies/index.md
+  - Процессы:
+      - processes/index.md
+  - Гайды:
+      - guides/index.md
+  - FAQ: faq/index.md
